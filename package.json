@@ -9,12 +9,14 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
     "autoprefixer": "^10.4.16",
     "eslint": "^8.56.0",
+    "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "nuxt": "^3.9.0",
     "postcss": "^8.4.32",
