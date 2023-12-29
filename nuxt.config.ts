@@ -1,8 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@nuxtjs/google-fonts'],
-  css: ['~/assets/css/main.css'],
+  modules: ["@nuxtjs/google-fonts", "@nuxt/image"],
+  css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -14,4 +14,8 @@ export default defineNuxtConfig({
       Nunito: true,
     },
   },
-})
+  image: {
+    format: ["avif", "webp"],
+    quality: 80,
+  },
+});
