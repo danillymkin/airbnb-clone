@@ -1,3 +1,8 @@
 <template>
-  <img src="/img/logo.png" alt="AirBnb" class="hidden md:block cursor-pointer w-[100px]">
+  <NuxtImg
+    src="/img/logo.png"
+    alt="AirBnb"
+    width="200"
+    class="hidden md:block cursor-pointer max-w-[100px]"
+  />
 </template>
