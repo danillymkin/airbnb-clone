@@ -6,6 +6,8 @@
           <Logo />
 
           <Search />
+
+          <UserMenu />
         </div>
       </Container>
     </div>
