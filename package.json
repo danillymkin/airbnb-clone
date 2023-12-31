@@ -23,6 +23,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "nuxt": "^3.9.0",
+    "nuxt-icon": "^0.6.8",
     "postcss": "^8.4.32",
     "tailwindcss": "^3.4.0",
     "vue": "^3.3.13",
@@ -30,5 +31,9 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.1.0",
+    "sharp": "^0.33.1"
   }
 }

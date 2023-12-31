@@ -1,0 +1,9 @@
+<template>
+  <NuxtImg
+    src="/img/avatar-fallback.jpg"
+    height="30"
+    width="30"
+    alt="Avatar"
+    class="rounded-full"
+  />
+</template>
