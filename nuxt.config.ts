@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/google-fonts", "@nuxt/image", "nuxt-icon"],
   css: ["~/assets/css/main.css"],
+  components: [{ path: "~/components", pathPrefix: false }],
   postcss: {
     plugins: {
       tailwindcss: {},
